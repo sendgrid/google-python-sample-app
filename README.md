@@ -25,7 +25,7 @@ Update the username and password with your SendGrid credentials.
 ```python
     s = Sendgrid('<sendgrid_username>', '<sendgrid_password>', secure = True)
 ```
-Update application identifier in app.yaml file
+Update application identifier in <strong>app.yaml</strong> file
 ```yaml
     application: application_identifier
 ```
