@@ -1,0 +1,19 @@
+application: sendgridpython1
+version: 1
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /stylesheets
+  static_dir: stylesheets
+
+- url: /images
+  static_dir: images
+
+- url: /.*
+  script: googleSendgridPython.app
+  
+libraries:
+- name: jinja2
+  version: latest  

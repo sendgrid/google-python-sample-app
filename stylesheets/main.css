@@ -1,0 +1,56 @@
+body {
+  font-family: Verdana, Helvetica, sans-serif;
+  margin: 0 auto !important;
+  font-family: "HelveticaNeueW01-55Roma","Helvetica Neue",Helvetica,Arial,Sans-Serif;
+  font-size: 14px;
+}
+
+.header {
+  width: 100%;
+  background-color: #262729;
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.header-top {
+  width: 520px;
+  margin: 0 auto !important;
+  text-align: left;
+}
+
+.content {
+  width: 100%;
+  text-align: center;
+}
+
+.form {
+  margin: 0 auto !important;
+  padding-top: 20px;
+  width: 520px;
+  text-align: left;
+}
+
+.form label {
+  width: 60px;
+  display: block;
+  float: left;
+}
+
+.form input {
+  width: 440px;
+  float: left;
+}
+
+.form-input {
+  padding: 10px 0;
+  clear: both;
+}
+
+.buttton {
+  width: 100px !important;
+}
+
+.error {
+  color: #ff0000;
+}
