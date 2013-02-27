@@ -21,7 +21,7 @@ Clone project on your local machine
 ###Configuration###
 Configure <strong>googleSendgridPython.py</strong> file with your information:
 
-Update the username and password with your SendGrid credentials.
+Update the *&lt;sendgrid_username&gt;* and *&lt;sendgrid_password&gt;* with your SendGrid credentials.
 ```python
     s = Sendgrid('<sendgrid_username>', '<sendgrid_password>', secure = True)
 ```
