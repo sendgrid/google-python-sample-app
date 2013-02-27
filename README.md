@@ -25,7 +25,7 @@ Update the username and password with your SendGrid credentials.
 ```python
     s = Sendgrid('<sendgrid_username>', '<sendgrid_password>', secure = True)
 ```
-Update the <from_address> with your email address
+Update the *&lt;from_address&gt;* with your email address
 ```python
     message = Message('<from_address>', subject, content, '')
 ```
