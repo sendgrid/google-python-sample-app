@@ -41,7 +41,8 @@ class SendEmail(webapp2.RequestHandler):
 
         # make a message object
         try:
-            message = Message(user.email(), subject, content, '')
+            # update the <from_address> with your email address
+            message = Message('<from_address>', subject, content, '')
         except Exception, msg:
             response = msg
             pass
