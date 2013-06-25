@@ -19,7 +19,7 @@ Clone project on your local machine
 </pre>
 
 ###Configuration###
-Configure <strong>googleSendgridPython.py</strong> file with your information:
+Configure `googleSendgridPython.py` file with your information:
 
 Update the *&lt;sendgrid_username&gt;* and *&lt;sendgrid_password&gt;* with your SendGrid credentials.
 ```python
@@ -30,7 +30,7 @@ Update the *&lt;from_address&gt;* with your email address
     message = Message('<from_address>', subject, content, '')
 ```
 
-Update application identifier in <strong>app.yaml</strong> file
+Update application identifier in `app.yaml` file
 ```yaml
     application: application_identifier
 ```
