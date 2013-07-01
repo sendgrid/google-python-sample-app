@@ -15,7 +15,7 @@ Create an application on https://appengine.google.com/start/createapp
 
 Clone project on your local machine
 <pre>
-    git clone https://github.com/mariusrusu/google-sendgrid-python.git
+    git clone https://github.com/sendgrid/google-python-sample-app
 </pre>
 
 ###Configuration###
